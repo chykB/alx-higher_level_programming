@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""defines a class Square"""
+"""defines class square """
+
+
 class Square:
-    """This pass statement makes the class empty"""
+    """ The pass statement make the class empty """
     pass
