@@ -4,5 +4,5 @@ Defines an empty class
 """
 
 class Rectangle:
-"""An empty block"""
+    """An empty block"""
     pass
