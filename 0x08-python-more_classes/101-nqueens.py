@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 Backtracking program to solve the N-Queens problem and print the coordinates of the queens in a non-attacking position on an nxn grid.
+
 """
 
 
