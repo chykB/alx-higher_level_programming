@@ -1,2 +1,3 @@
+#!/usr/bin/python
 def copy_list(l):
-    return 1[:]
+    return l[:]
