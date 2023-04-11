@@ -8,5 +8,5 @@ def is_same_class(obj, a_class):
     parameter a_class: true is object is exactly the same
     """
     if type(obj) == a_class:
-	return True
+        return True
     return False
