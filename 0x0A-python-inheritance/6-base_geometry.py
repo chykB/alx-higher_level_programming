@@ -3,6 +3,7 @@
 """Creates a class that can be used as a base class for other geometry-related classes"""
 
 class BaseGeometry:
+	"""Creates a class that can be used as a base class for other geometry-related classes"""
 	
 	def area(self):
 	"""
