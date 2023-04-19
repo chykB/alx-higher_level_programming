@@ -1,31 +1,32 @@
 #!/usr/bin/python3
-"""Create a child class Rectangle"""
-from model.base import Base
-
+"""Create a rectangle class."""
+from models.base import Base
 
 
 class Rectangle(Base):
-    """
-    Rectangle class that inherits from Base
-    """
+    """Represent a rectangle."""
 
     def __init__(self, width, height, x=0, y=0, id=None):
-         """
-        Rectangle class constructor
+        """Initialize a new Rectangle.
         Args:
-            width (int): Width of the rectangle
-            height (int): Height of the rectangle
-            x (int): X coordinate of the rectangle (default: 0)
-            y (int): Y coordinate of the rectangle (default: 0)
-            id (int): ID of the rectangle (default: None)
+            width (int): The width of the new Rectangle.
+            height (int): The height of the new Rectangle.
+            x (int): The x coordinate of the new Rectangle.
+            y (int): The y coordinate of the new Rectangle.
+            id (int): The identity of the new Rectangle.
+        Raises:
+            TypeError: If either of width or height is not an int.
+            ValueError: If either of width or height <= 0.
+            TypeError: If either of x or y is not an int.
+            ValueError: If either of x or y < 0.
         """
         self.width = width
         self.height = height
         self.x = x
         self.y = y
         super().__init__(id)
-        
-         @property
+
+    @property
     def width(self):
         """Set/get the width of the Rectangle."""
         return self.__width
