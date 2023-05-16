@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for i in range(ord('z'), ord('a')-1, -1:
-        print("{0}{1}".format(chr(i).lower() if i % 2 == 1 else chr(i).upper(), "" if i == ord('A') else ""), end="")
+
+for i in range(26):
+    if i % 2 == 0:
+        print('{:c}'.format(122 - i), end='')
+    else:
+        print('{:c}'.format(90 - i), end='')
