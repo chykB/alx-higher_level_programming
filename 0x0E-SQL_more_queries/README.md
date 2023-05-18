@@ -7,16 +7,24 @@ SQL is a declarative language used for interacting with relational databases. It
 Databases
 
 ## Resoures Used for  project
-https://www.youtube.com/watch?v=FR4QIeZaPeM
-https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
-https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/ddldml.php
-https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/queries.php
-https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/functions.php
+https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql
+https://www.mysqltutorial.org/mysql-grant.aspx
+https://zetcode.com/mysql/constraints/
 https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/subqueries.php
-https://stackoverflow.com/questions/29402361/what-makes-the-big-difference-between-a-backtick-and-an-apostrophe/29402458
+https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/join.php
+https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/multijoin.php
+https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/jointypes.php
+https://web.csulb.edu/colleges/coe/cecs/dbdesign/dbdesign.php?page=sql/setops.php
 https://intellipaat.com/mediaFiles/2019/02/SQL-Commands-Cheat-Sheet.pdf?US
+https://tableplus.com/blog/2018/09/a-beginners-guide-to-seven-types-of-sql-joins.html
+https://www.youtube.com/watch?v=yPu6qV5byu4
+https://www.sqlstyle.guide/
 https://dev.mysql.com/doc/refman/8.0/en/sql-statements.html
-https://phoenixnap.com/kb/install-mysql-ubuntu-20-04
+
+## Extra resources around relational database model design
+https://www.guru99.com/database-design.html
+https://www.guru99.com/database-normalization.html
+https://www.guru99.com/er-modeling.html
 
 ## General Requirements
 + Allowed editors: vi, vim, emacs
